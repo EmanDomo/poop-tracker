@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode"; // ✅ Correct import for Vite
 import { Container, Card } from "react-bootstrap";
+import { host } from '../apiRoutes';
 
 const Dashboard = () => {
   const [username, setUsername] = useState("");
