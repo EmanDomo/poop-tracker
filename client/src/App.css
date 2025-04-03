@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Override dark mode styles for Bootstrap components */
+.card {
+  background-color: #fff;
+  color: #212529;
+}
+
+.form-label, .form-control, h2 {
+  color: #212529;
+}
